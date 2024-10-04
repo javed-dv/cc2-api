@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SequenceController {
     @GetMapping(path = "/number")
     public String getSequenceNumber() {
-        return "This is Seq13910";
+        return "This is Seq info";
     }
 }
